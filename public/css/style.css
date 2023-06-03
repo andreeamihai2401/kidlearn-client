@@ -1,0 +1,70 @@
+@import url("https://fonts.google.com/specimen/Londrina+Sketch");
+
+/* menu.css */
+.menu-style {
+  background-color: #7ca0d4;
+  border-bottom: none;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.grow-on-hover {
+  transition: transform 0.3s ease;
+}
+
+.grow-on-hover:hover {
+  transform: scale(1.05);
+}
+
+.custom-menu {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.custom-menu .ant-menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.custom-menu-item .anticon {
+  vertical-align: middle;
+  padding: "3px";
+}
+
+.instructor-nav {
+  width: 200px;
+  position: absolute;
+  left: 0;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.instructor-nav .nav-link {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.instructor-nav .nav-link.active {
+  font-weight: bold;
+}
+
+.user-nav {
+  width: 200px;
+  position: absolute;
+
+  left: 0;
+
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.user-nav .nav-link {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.user-nav .nav-link.active {
+  font-weight: bold;
+}
