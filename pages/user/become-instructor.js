@@ -22,7 +22,7 @@ const BecomeInstructor = () => {
       .post("/api/make-instructor")
       .then((res) => {
         console.log(res);
-        window.location.href = res.data;
+        window.location.href = res.data.replace(/^https:/, "http:");
       })
       .catch((err) => {
         console.log(err.response.status);
