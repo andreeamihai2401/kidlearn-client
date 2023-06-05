@@ -47,7 +47,7 @@ const TopNav = () => {
         style={{ color: "white" }}
       >
         <Link legacyBehavior href="/">
-          <a style={{ color: "white", textDecoration: "none" }}>App</a>
+          <a style={{ color: "white", textDecoration: "none" }}>KidLearn</a>
         </Link>
       </Item>
 
